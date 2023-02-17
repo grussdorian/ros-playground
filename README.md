@@ -3,25 +3,25 @@
 ## Run the master node first
 
 ```console
-roscore
+foo@bar$ roscore
 ```
 
 ## Graph visualisation on another terminal
 
 ```console
-rqt_graph
+foo@bar$ rqt_graph
 ```
 
 ## Node list on another terminal
 
 ```console
-rosnode list
+foo@bar$ rosnode list
 ```
 
 
 ## On another terminal
 
 ```console
-chmod +x src/<python_file_name>
-rosrun my_robot_controller <python_file_name>
+foo@bar$ chmod +x src/<python_file_name>
+foo@bar$ rosrun my_robot_controller <python_file_name>
 ```
